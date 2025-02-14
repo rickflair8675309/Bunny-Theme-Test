@@ -22,7 +22,7 @@
         "BACKGROUND_SECONDARY": ["#2A005A", "#2A005A"],
         "BACKGROUND_SECONDARY_ALT": ["#38007A", "#38007A"],
         "BACKGROUND_TERTIARY": ["#F500A1", "#F500A1"],
-        "CHAT_BACKGROUND": ["#1B003A", "#1B003A"],
+        "CHAT_BACKGROUND": ["url(https://i.imgur.com/bUJaZ0p.jpeg)", "url(https://i.imgur.com/bUJaZ0p.jpeg)"],
         "HEADER_PRIMARY": ["#FF00F5", "#FF00F5"],
         "HEADER_SECONDARY": ["#F500A1", "#F500A1"],
         "INPUT_BACKGROUND": ["#3E007D", "#3E007D"],
@@ -78,7 +78,9 @@
         }
     },
     "spec": 2,
-    "BACKGROUND_PRIMARY": ["https://i.imgur.com/bUJaZ0p.jpeg", "https://i.imgur.com/bUJaZ0p.jpeg"],
+    "BG_BASE_PRIMARY": ["url(https://i.imgur.com/bUJaZ0p.jpeg)", "url(https://i.imgur.com/bUJaZ0p.jpeg)"],
+    "background_image": "https://i.imgur.com/bUJaZ0p.jpeg",
     "background_blur": false,
-    "background_opacity": 1
+    "background_opacity": 1,
+    "customCSS": "body { background: url('https://i.imgur.com/bUJaZ0p.jpeg') !important; background-size: cover !important; background-attachment: fixed !important; }"
 }
