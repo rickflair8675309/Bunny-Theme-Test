@@ -1,49 +1,31 @@
 {
-  "manifest": {
-    "name": "American Patriot",
-    "author": "rickflair8675309",
-    "version": "1.0",
-    "description": "A patriotic American theme for Bunny Mod with a bald eagle background."
-  },
-  "theme": {
-    "background": {
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Bald_Eagle_%28Haliaeetus_leucocephalus%29_Kachemak_Bay%2C_Alaska.jpg",
-      "blur": false,
-      "opacity": 0.9
-    },
-    "colors": {
-      "primary": "#B22234",
-      "secondary": "#3C3B6E",
-      "accent": "#FFFFFF",
-      "text": "#FFFFFF",
-      "link": "#FFD700",
-      "background": "#0C1445"
-    },
-    "chat": {
-      "background": "rgba(0, 0, 0, 0.8)",
-      "text_color": "#FFFFFF",
-      "mention_color": "#FFD700",
-      "timestamp_color": "#A9A9A9"
-    },
-    "sidebar": {
-      "background": "#B22234",
-      "text_color": "#FFFFFF",
-      "selected_item": "#FFD700",
-      "hover_item": "#DC143C"
-    },
-    "header": {
-      "background": "#3C3B6E",
-      "text_color": "#FFFFFF"
-    },
-    "buttons": {
-      "primary": "#FFD700",
-      "secondary": "#B22234",
-      "hover": "#DC143C"
-    },
-    "badges": {
-      "admin": "#FFD700",
-      "moderator": "#DC143C",
-      "booster": "#3C3B6E"
-    }
-  }
+  "name": "American Patriot",
+  "author": "rickflair8675309",
+  "version": "1.0",
+  "description": "A patriotic American theme for Bunny Mod with a bald eagle background.",
+  "background_image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Bald_Eagle_%28Haliaeetus_leucocephalus%29_Kachemak_Bay%2C_Alaska.jpg",
+  "background_blur": false,
+  "background_opacity": 0.9,
+  "primary_color": "#B22234",
+  "secondary_color": "#3C3B6E",
+  "accent_color": "#FFFFFF",
+  "text_color": "#FFFFFF",
+  "link_color": "#FFD700",
+  "background_color": "#0C1445",
+  "chat_background": "rgba(0, 0, 0, 0.8)",
+  "chat_text_color": "#FFFFFF",
+  "chat_mention_color": "#FFD700",
+  "chat_timestamp_color": "#A9A9A9",
+  "sidebar_background": "#B22234",
+  "sidebar_text_color": "#FFFFFF",
+  "sidebar_selected_item": "#FFD700",
+  "sidebar_hover_item": "#DC143C",
+  "header_background": "#3C3B6E",
+  "header_text_color": "#FFFFFF",
+  "button_primary": "#FFD700",
+  "button_secondary": "#B22234",
+  "button_hover": "#DC143C",
+  "badge_admin": "#FFD700",
+  "badge_moderator": "#DC143C",
+  "badge_booster": "#3C3B6E"
 }
