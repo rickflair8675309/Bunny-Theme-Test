@@ -1,0 +1,45 @@
+{
+    "name": "American Patriot",
+    "author": "YourGitHubUsername",
+    "version": "1.0",
+    "description": "A patriotic American theme for Bunny Mod with a bald eagle background.",
+    "background": {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Bald_Eagle_%28Haliaeetus_leucocephalus%29_Kachemak_Bay%2C_Alaska.jpg",
+      "blur": false,
+      "opacity": 0.9
+    },
+    "colors": {
+      "primary": "#B22234",
+      "secondary": "#3C3B6E",
+      "accent": "#FFFFFF",
+      "text": "#FFFFFF",
+      "link": "#FFD700",
+      "background": "#0C1445"
+    },
+    "chat": {
+      "background": "rgba(0, 0, 0, 0.8)",
+      "text_color": "#FFFFFF",
+      "mention_color": "#FFD700",
+      "timestamp_color": "#A9A9A9"
+    },
+    "sidebar": {
+      "background": "#B22234",
+      "text_color": "#FFFFFF",
+      "selected_item": "#FFD700",
+      "hover_item": "#DC143C"
+    },
+    "header": {
+      "background": "#3C3B6E",
+      "text_color": "#FFFFFF"
+    },
+    "buttons": {
+      "primary": "#FFD700",
+      "secondary": "#B22234",
+      "hover": "#DC143C"
+    },
+    "badges": {
+      "admin": "#FFD700",
+      "moderator": "#DC143C",
+      "booster": "#3C3B6E"
+    }
+  }  
