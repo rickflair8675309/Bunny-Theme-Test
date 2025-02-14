@@ -18,11 +18,11 @@
         "BACKGROUND_MOBILE_PRIMARY": ["#440067", "#440067"],
         "BACKGROUND_MOBILE_SECONDARY": ["#2D003E", "#2D003E"],
         "BACKGROUND_NESTED_FLOATING": ["#3E007D", "#3E007D"],
-        "BACKGROUND_PRIMARY": ["#1B003A", "#1B003A"],
+        "BACKGROUND_PRIMARY": ["transparent", "transparent"],
         "BACKGROUND_SECONDARY": ["#2A005A", "#2A005A"],
         "BACKGROUND_SECONDARY_ALT": ["#38007A", "#38007A"],
         "BACKGROUND_TERTIARY": ["#F500A1", "#F500A1"],
-        "CHAT_BACKGROUND": ["url(https://i.imgur.com/bUJaZ0p.jpeg)", "url(https://i.imgur.com/bUJaZ0p.jpeg)"],
+        "CHAT_BACKGROUND": ["transparent", "transparent"],
         "HEADER_PRIMARY": ["#FF00F5", "#FF00F5"],
         "HEADER_SECONDARY": ["#F500A1", "#F500A1"],
         "INPUT_BACKGROUND": ["#3E007D", "#3E007D"],
@@ -78,9 +78,5 @@
         }
     },
     "spec": 2,
-    "BG_BASE_PRIMARY": ["url(https://i.imgur.com/bUJaZ0p.jpeg)", "url(https://i.imgur.com/bUJaZ0p.jpeg)"],
-    "background_image": "https://i.imgur.com/bUJaZ0p.jpeg",
-    "background_blur": false,
-    "background_opacity": 1,
-    "customCSS": "body { background: url('https://i.imgur.com/bUJaZ0p.jpeg') !important; background-size: cover !important; background-attachment: fixed !important; }"
+    "customCSS": "body { background: url('https://i.imgur.com/bUJaZ0p.jpeg') !important; background-size: cover !important; background-attachment: fixed !important; background-position: center !important; }"
 }
