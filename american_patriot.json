@@ -1,7 +1,11 @@
+{
+  "manifest": {
     "name": "American Patriot",
-    "author": "YourGitHubUsername",
+    "author": "rickflair8675309",
     "version": "1.0",
-    "description": "A patriotic American theme for Bunny Mod with a bald eagle background.",
+    "description": "A patriotic American theme for Bunny Mod with a bald eagle background."
+  },
+  "theme": {
     "background": {
       "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Bald_Eagle_%28Haliaeetus_leucocephalus%29_Kachemak_Bay%2C_Alaska.jpg",
       "blur": false,
@@ -41,4 +45,5 @@
       "moderator": "#DC143C",
       "booster": "#3C3B6E"
     }
-  }  
+  }
+}
