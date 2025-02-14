@@ -78,7 +78,7 @@
         }
     },
     "spec": 2,
-    "background_image": "https://i.imgur.com/bUJaZ0p.jpeg",
+    "BACKGROUND_PRIMARY": ["https://i.imgur.com/bUJaZ0p.jpeg", "https://i.imgur.com/bUJaZ0p.jpeg"],
     "background_blur": false,
     "background_opacity": 1
 }
