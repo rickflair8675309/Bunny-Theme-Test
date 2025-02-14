@@ -78,5 +78,6 @@
         }
     },
     "spec": 2,
-    "customCSS": "body { background: url('https://wallpapersok.com/images/hd/cosmic-trippy-aesthetic-e6t1uewlw8c8sdws.jpg') !important; background-size: cover !important; background-attachment: fixed !important; background-position: center !important; }"
+    "background_image": "https://wallpapersok.com/images/hd/cosmic-trippy-aesthetic-e6t1uewlw8c8sdws.jpg",
+    "customCSS": "body::before { content: ''; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: url('https://wallpapersok.com/images/hd/cosmic-trippy-aesthetic-e6t1uewlw8c8sdws.jpg') no-repeat center center fixed; background-size: cover; z-index: -1; }"
 }
