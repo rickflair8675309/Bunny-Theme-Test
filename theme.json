@@ -1,0 +1,34 @@
+{
+    "theme_name": "PsychoBunny Trip",
+    "author": "Austin",
+    "version": "1.0",
+    "background": {
+        "image": "/mnt/data/A_highly_psychedelic,_trippy_background_with_vibra.png",
+        "style": "cover"
+    },
+    "colors": {
+        "primary": "#FF00FF",
+        "secondary": "#00FFFF",
+        "tertiary": "#FF6600",
+        "accent": "#33FF00",
+        "text": "#FFFFFF",
+        "text_shadow": "#000000",
+        "button_bg": "#FFFF00",
+        "button_text": "#000000",
+        "button_border": "#FF0000",
+        "menu_bg": "#0000FF",
+        "menu_text": "#FFFFFF",
+        "input_bg": "#FF1493",
+        "input_text": "#000000",
+        "highlight": "#FFD700"
+    },
+    "effects": {
+        "glow": true,
+        "animations": true,
+        "transitions": "smooth"
+    },
+    "fonts": {
+        "default": "PsychoSans-Bold",
+        "size": "14px"
+    }
+}
