@@ -3,7 +3,7 @@
     "author": "Austin",
     "version": "1.0",
     "background": {
-        "image": "/mnt/data/A_highly_psychedelic,_trippy_background_with_vibra.png",
+        "image": "https://your-hosted-image-link.com/psychedelic_background.png",
         "style": "cover"
     },
     "colors": {
@@ -28,7 +28,8 @@
         "transitions": "smooth"
     },
     "fonts": {
-        "default": "PsychoSans-Bold",
+        "default": "Arial",
         "size": "14px"
-    }
+    },
+    "bunny_mod_version": "latest"
 }
