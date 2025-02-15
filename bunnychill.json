@@ -1,0 +1,40 @@
+{
+    "theme_name": "ChillBunny Vibes",
+    "author": "Austin",
+    "version": "1.0",
+    "background": {
+        "image": "https://i.imgur.com/bUJaZ0p_d.webp?maxwidth=760&fidelity=grand"
+        "style": "cover"
+    },
+    "colors": {
+        "primary": "#A6C5DD",
+        "secondary": "#8A91A8",
+        "tertiary": "#D1E0F0",
+        "accent": "#88BDBC",
+        "text": "#FFFFFF",
+        "text_shadow": "#333333",
+        "button_bg": "#5E81AC",
+        "button_text": "#FFFFFF",
+        "button_border": "#88C0D0",
+        "menu_bg": "#2E3440",
+        "menu_text": "#ECEFF4",
+        "input_bg": "#4C566A",
+        "input_text": "#D8DEE9",
+        "highlight": "#81A1C1"
+    },
+    "effects": {
+        "glow": false,
+        "animations": true,
+        "transitions": "smooth"
+    },
+    "fonts": {
+        "default": "Arial",
+        "size": "14px"
+    },
+    "borders": {
+        "channel_list": "2px solid #81A1C1",
+        "chat_box": "2px solid #88C0D0",
+        "buttons": "1px solid #5E81AC"
+    },
+    "bunny_mod_version": "latest"
+}
