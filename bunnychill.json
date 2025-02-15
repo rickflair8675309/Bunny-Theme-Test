@@ -1,40 +1,182 @@
 {
-  "theme_name": "ChillBunny Vibes",
-  "author": "Austin",
-  "version": "1.0",
-  "background": {
-    "image": "https://i.imgur.com/bUJaZ0p.png",  // Updated image URL
-    "style": "cover"
-  },
-  "colors": {
-    "primary": "#A6C5DD",
-    "secondary": "#8A91A8",
-    "tertiary": "#D1E0F0",
-    "accent": "#88BDBC",
-    "text": "#FFFFFF",
-    "text_shadow": "#333333",
-    "button_bg": "#5E81AC",
-    "button_text": "#FFFFFF",
-    "button_border": "#88C0D0",
-    "menu_bg": "#2E3440",
-    "menu_text": "#ECEFF4",
-    "input_bg": "#4C566A",
-    "input_text": "#D8DEE9",
-    "highlight": "#81A1C1"
-  },
-  "effects": {
-    "glow": false,
-    "animations": true,
-    "transitions": "smooth"
-  },
-  "fonts": {
-    "default": "Arial",
-    "size": "14px"
-  },
-  "borders": {
-    "channel_list": "2px solid #81A1C1",
-    "chat_box": "2px solid #88C0D0",
-    "buttons": "1px solid #5E81AC"
-  },
-  "bunny_mod_version": "latest"
+    "name": "ChillBunny Vibes",
+    "description": "A relaxing, soft-colored theme with bordered chat elements for a structured, chill experience.",
+    "authors": [
+        {
+            "name": "rickflair8675309"
+        }
+    ],
+    "semanticColors": {
+        "ANDROID_RIPPLE": [
+            "#A6C5DD",
+            "#A6C5DD"
+        ],
+        "BACKGROUND_ACCENT": [
+            "#8A91A8",
+            "#8A91A8"
+        ],
+        "BACKGROUND_MENTIONED": [
+            "#D1E0F0",
+            "#D1E0F0"
+        ],
+        "BACKGROUND_MENTIONED_HOVER": [
+            "#88BDBC",
+            "#88BDBC"
+        ],
+        "BACKGROUND_MODIFIER_ACCENT": [
+            "#D1E0F0",
+            "#D1E0F0"
+        ],
+        "BACKGROUND_MODIFIER_ACTIVE": [
+            "#A6C5DD",
+            "#A6C5DD"
+        ],
+        "BACKGROUND_MODIFIER_HOVER": [
+            "#8A91A8",
+            "#8A91A8"
+        ],
+        "BACKGROUND_MODIFIER_SELECTED": [
+            "#88BDBC",
+            "#88BDBC"
+        ],
+        "BACKGROUND_MOBILE_PRIMARY": [
+            "#33005A",
+            "#33005A"
+        ],
+        "BACKGROUND_MOBILE_SECONDARY": [
+            "#210042",
+            "#210042"
+        ],
+        "BACKGROUND_NESTED_FLOATING": [
+            "#38007D",
+            "#38007D"
+        ],
+        "BACKGROUND_PRIMARY": [
+            "transparent",
+            "transparent"
+        ],
+        "BACKGROUND_SECONDARY": [
+            "#33005A",
+            "#33005A"
+        ],
+        "BACKGROUND_SECONDARY_ALT": [
+            "#45007A",
+            "#45007A"
+        ],
+        "BACKGROUND_TERTIARY": [
+            "#88BDBC",
+            "#88BDBC"
+        ],
+        "CHAT_BACKGROUND": [
+            "transparent",
+            "transparent"
+        ],
+        "HEADER_PRIMARY": [
+            "#A6C5DD",
+            "#A6C5DD"
+        ],
+        "HEADER_SECONDARY": [
+            "#8A91A8",
+            "#8A91A8"
+        ],
+        "INPUT_BACKGROUND": [
+            "#3E007D",
+            "#3E007D"
+        ],
+        "INTERACTIVE_ACTIVE": [
+            "#88BDBC",
+            "#88BDBC"
+        ],
+        "INTERACTIVE_HOVER": [
+            "#A6C5DD",
+            "#A6C5DD"
+        ],
+        "INTERACTIVE_MUTED": [
+            "#8A91A8",
+            "#8A91A8"
+        ],
+        "REDESIGN_BUTTON_SECONDARY_BORDER": [
+            "#A6C5DD",
+            "#A6C5DD"
+        ],
+        "REDESIGN_BUTTON_TERTIARY_BACKGROUND": [
+            "#210042",
+            "#210042"
+        ],
+        "REDESIGN_CHANNEL_CATEGORY_NAME_TEXT": [
+            "#A6C5DD",
+            "#A6C5DD"
+        ],
+        "REDESIGN_CHANNEL_NAME_TEXT": [
+            "#88BDBC",
+            "#88BDBC"
+        ],
+        "REDESIGN_CHAT_INPUT_BACKGROUND": [
+            "#33005A",
+            "#33005A"
+        ],
+        "REDESIGN_BUTTON_PRIMARY_PRESSED_BACKGROUND": [
+            "#8A91A8",
+            "#8A91A8"
+        ],
+        "TEXT_LINK": [
+            "#A6C5DD",
+            "#A6C5DD"
+        ],
+        "TEXT_MUTED": [
+            "#8A91A8",
+            "#8A91A8"
+        ],
+        "TEXT_NORMAL": [
+            "#FFFFFF",
+            "#FFFFFF"
+        ],
+        "TEXT_PRIMARY": [
+            "#FFFFFF",
+            "#FFFFFF"
+        ],
+        "THREAD_CHANNEL_SPINE": [
+            "#A6C5DD",
+            "#A6C5DD"
+        ]
+    },
+    "rawColors": {
+        "BRAND_260": "#8A91A8",
+        "BRAND_300": "#A6C5DD",
+        "BRAND_360": "#8A91A8",
+        "BRAND_500": "#D1E0F0",
+        "BRAND_560": "#88BDBC",
+        "BRAND_630": "#210042",
+        "BRAND_730": "#38007D",
+        "PRIMARY_100": "#FFFFFF",
+        "PRIMARY_200": "#FFFFFF",
+        "PRIMARY_300": "#88BDBC",
+        "PRIMARY_360": "#8A91A8",
+        "PRIMARY_400": "#8A91A8",
+        "PRIMARY_460": "#A6C5DD",
+        "PRIMARY_500": "#FFFFFF",
+        "PRIMARY_660": "#A6C5DD",
+        "PRIMARY_700": "#38007D",
+        "PRIMARY_730": "#38007D",
+        "PRIMARY_800": "#88BDBC",
+        "GREEN_100": "#8A91A8",
+        "GREEN_130": "#8A91A8",
+        "GREEN_160": "#8A91A8",
+        "GREEN_200": "#88BDBC",
+        "GREEN_300": "#8A91A8",
+        "YELLOW_100": "#A6C5DD",
+        "YELLOW_300": "#A6C5DD"
+    },
+    "plus": {
+        "version": "0",
+        "customOverlays": true,
+        "mentionLineColor": "#88BDBC",
+        "icons": {
+            "ic_close_24px": "#FFFFFF",
+            "SettingsIcon": "#88BDBC"
+        }
+    },
+    "spec": 2,
+    "background_image": "https://i.imgur.com/bUJaZ0p.png",
+    "customCSS": "body::before { content: ''; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: url('https://i.imgur.com/bUJaZ0p.png') no-repeat center center fixed; background-size: cover; z-index: -1; }"
 }
