@@ -52,24 +52,24 @@
             "#38007D"
         ],
         "BACKGROUND_PRIMARY": [
-            "transparent",
-            "transparent"
+            "#2E3B4E",
+            "#2E3B4E"
         ],
         "BACKGROUND_SECONDARY": [
-            "#33005A",
-            "#33005A"
+            "#3A475E",
+            "#3A475E"
         ],
         "BACKGROUND_SECONDARY_ALT": [
             "#45007A",
             "#45007A"
         ],
         "BACKGROUND_TERTIARY": [
-            "#88BDBC",
-            "#88BDBC"
+            "#4A5B73",
+            "#4A5B73"
         ],
         "CHAT_BACKGROUND": [
-            "transparent",
-            "transparent"
+            "#2E3B4E",
+            "#2E3B4E"
         ],
         "HEADER_PRIMARY": [
             "#A6C5DD",
@@ -177,6 +177,6 @@
         }
     },
     "spec": 2,
-    "background_image": "https://i.imgur.com/bUJaZ0p.png",
-    "customCSS": "body::before { content: ''; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: url('https://i.imgur.com/bUJaZ0p.png') no-repeat center center fixed; background-size: cover; z-index: -1; }"
+    "background_image": null,
+    "customCSS": ""
 }
